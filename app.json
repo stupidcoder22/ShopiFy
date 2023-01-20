@@ -7,9 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/1.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#403b58"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,14 +20,20 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
+    "android": { 
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logonew.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.prateek233.ShopiFy"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b2be39b-b154-464b-9b32-c5b1cac71132"
+      }
     }
   }
 }
